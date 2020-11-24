@@ -1,0 +1,38 @@
+h1{
+    color:slateblue;
+}
+
+.header{
+    display:flex;
+    background-color: lightcoral;
+    justify-content: space-between;
+}
+
+.grid{
+    display:flex;
+    background-color: khaki;
+    border: 10px solid #000000;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.origami{
+    display:flex;
+    color:peru;
+    flex-grow: inherit;
+    padding: 30px;
+    margin:25px;
+    width:300px;
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+p,li,ul{
+    text-align: center;
+}
+
+hr{
+    border:2px solid #000000;
+    border-radius: 25px;
+}
